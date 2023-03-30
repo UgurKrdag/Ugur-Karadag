@@ -1,5 +1,4 @@
 package Tests;
-
 import base.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

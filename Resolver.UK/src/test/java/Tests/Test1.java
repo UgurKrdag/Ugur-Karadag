@@ -1,5 +1,4 @@
 package Tests;
-
 import base.TestBase;
 import com.github.javafaker.Faker;
 import org.openqa.selenium.By;
@@ -10,7 +9,6 @@ import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 
 public class Test1 extends TestBase {
 
