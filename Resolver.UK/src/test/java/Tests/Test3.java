@@ -20,13 +20,8 @@ public class Test3 extends TestBase {
         WebElement selectList = test3Div.findElement(By.id("dropdownMenuButton"));
         Assert.assertEquals(selectList.getText(),"Option 1","Default selected value is not Option 1");
         selectList.click();
-        selectList.click();
         WebElement option3 = selectList.findElement(By.xpath("//a[@class='dropdown-item'][3]"));
         option3.click();
-
-
-
-
     }
 }
 
