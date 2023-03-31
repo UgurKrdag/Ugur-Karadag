@@ -20,7 +20,7 @@ public class Test2 extends TestBase {
         Assert.assertEquals(listItems.size(), 3, "Number of list items is not 3");
         WebElement secondListItem = listItems.get(1);
         WebElement badge = secondListItem.findElement(By.tagName("span"));
-        Assert.assertEquals(secondListItem.getText(), "List Item 2 6", "Second list item text is not List Item 2");
+        Assert.assertEquals(secondListItem.getText(), "List Item 2", "Second list item text is not List Item 2");
         Assert.assertEquals(badge.getText(), "6", "Second list item badge value is not 6");
     }
 }
